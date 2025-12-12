@@ -47,6 +47,8 @@ export const FeaturedTrackSection: React.FC = () => {
 
           {/* Spotify Embed */}
           <div className="w-full h-[152px] rounded-2xl overflow-hidden shadow-lg relative z-0">
+             {/* Key prop forces re-render if needed, but standard eager loading usually suffices. 
+                 Using a simple iframe here without lazy loading for immediate availability. */}
             <iframe 
               style={{borderRadius: '12px'}} 
               src="https://open.spotify.com/embed/track/0fMFygZkl6SxSgYbXNQZME?utm_source=generator" 
@@ -55,7 +57,6 @@ export const FeaturedTrackSection: React.FC = () => {
               frameBorder="0" 
               allowFullScreen 
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-              loading="eager"
               title="Everything (Amen) by Timi Dakolo"
               className="absolute top-0 left-0 w-full h-full"
             ></iframe>

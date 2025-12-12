@@ -11,7 +11,7 @@ export const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="relative w-full min-h-screen flex flex-col justify-center items-center overflow-hidden py-12 md:py-0">
+    <section className="relative w-full min-h-screen flex flex-col justify-center items-center overflow-hidden py-4 md:py-0">
       
       {/* Background Decorative Element - Subtle gradient */}
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-background/20 pointer-events-none" />
