@@ -11,7 +11,7 @@ export const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="relative w-full min-h-screen flex flex-col justify-center items-center overflow-hidden">
+    <section className="relative w-full min-h-screen flex flex-col justify-center items-center overflow-hidden py-24 md:py-0">
       
       {/* Background Decorative Element - Subtle gradient */}
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-background/20 pointer-events-none" />
@@ -55,7 +55,7 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* Hero Image */}
-        <div className="md:col-span-5 relative order-1 md:order-2 h-[50vh] md:h-[70vh] w-full">
+        <div className="md:col-span-5 relative order-1 md:order-2 h-[50vh] md:h-[70vh] w-full mt-12 md:mt-0">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -64,9 +64,9 @@ export const HeroSection: React.FC = () => {
           >
             <div className="absolute inset-0 bg-accent/10 z-10 mix-blend-multiply" />
             <img 
-              src="https://picsum.photos/800/1200?grayscale" 
-              alt="Brother moving gracefully"
-              className="w-full h-full object-cover object-center grayscale hover:grayscale-0 transition-all duration-1000 ease-in-out"
+              src="/kevin-hero.jpg" 
+              alt="Kevin"
+              className="w-full h-full object-cover object-center hover:grayscale-0 transition-all duration-1000 ease-in-out"
             />
           </motion.div>
         </div>
