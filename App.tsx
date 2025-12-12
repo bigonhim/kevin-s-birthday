@@ -1,5 +1,5 @@
 import React from 'react';
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from "@vercel/analytics/react"
 import { HeroSection } from './components/HeroSection';
 import { AudioTributeSection } from './components/AudioTributeSection';
 import { FeaturedTrackSection } from './components/FeaturedTrackSection';
