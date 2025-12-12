@@ -46,7 +46,7 @@ export const FeaturedTrackSection: React.FC = () => {
           </div>
 
           {/* Spotify Embed */}
-          <div className="w-full h-[152px] rounded-2xl overflow-hidden shadow-lg relative z-0">
+          <div className="w-full max-w-[400px] h-[152px] rounded-2xl overflow-hidden shadow-lg relative z-0 mx-auto md:mx-0">
              {/* Key prop forces re-render if needed, but standard eager loading usually suffices. 
                  Using a simple iframe here without lazy loading for immediate availability. */}
             <iframe 
