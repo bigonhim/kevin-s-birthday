@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/next';
 import { HeroSection } from './components/HeroSection';
 import { AudioTributeSection } from './components/AudioTributeSection';
 import { FeaturedTrackSection } from './components/FeaturedTrackSection';
@@ -15,6 +16,7 @@ const App: React.FC = () => {
       <ReflectionSection />
       <NostalgiaTrackSection />
       <FinalMessageSection />
+      <Analytics />
       
       {/* Footer / Copyright */}
       <footer className="py-8 text-center text-sm text-gray-400 font-sans">
