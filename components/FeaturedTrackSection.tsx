@@ -59,7 +59,6 @@ export const FeaturedTrackSection: React.FC = () => {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
               title="Everything (Amen) by Timi Dakolo"
               className="absolute top-0 left-0 w-full h-full"
-              loading="eager"
             ></iframe>
           </div>
         </div>
